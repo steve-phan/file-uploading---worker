@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "module": "esnext",
+    "target": "esnext",
+    "moduleResolution": "node",
+    "jsx": "react",
+    "strict": true,
+    "esModuleInterop": true,
+    "types": ["node", "@testing-library/jest-dom"],
+    "lib": ["dom", "dom.iterable", "esnext", "webworker"]
+  },
+  "include": ["src", "src/types"]
+}
